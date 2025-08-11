@@ -67,7 +67,7 @@ async function moreLoadImage() {
     `https://pixabay.com/api/?key=${key}&image_type=photo&orientation=horizontal&q=${q}&safesearch=true&page=${page}&per_page=${perPage}`
   );
 }
-
+// Click button more image
 button.addEventListener('click', function () {
   moreLoadImage().then(response => {
     const data = response.data.hits;
