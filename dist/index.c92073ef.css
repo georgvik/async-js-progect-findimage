@@ -1,0 +1,52 @@
+.load-more {
+  width: 200px;
+  height: 50px;
+  color: #f0f8ff;
+  text-align: center;
+  background-color: #00f;
+  justify-content: center;
+  margin: 0 auto 20px;
+  padding: 10px 20px;
+  font-size: 20px;
+  display: flex;
+}
+
+.in-active {
+  display: none;
+}
+
+.search-form {
+  text-align: center;
+  width: 200px;
+  height: 50px;
+  margin: 20px auto 0;
+  font-size: 25px;
+  display: flex;
+}
+
+.gallery {
+  width: 1650px;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  display: flex;
+}
+
+.info {
+  justify-content: space-around;
+  align-items: center;
+  display: flex;
+}
+
+.info-item {
+  text-align: center;
+  flex-direction: column;
+  display: flex;
+}
+
+img {
+  width: 400px;
+  height: 200px;
+  margin: 5px;
+}
+
+/*# sourceMappingURL=index.c92073ef.css.map */
