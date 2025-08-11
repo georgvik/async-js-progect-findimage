@@ -15,6 +15,7 @@ const button = document.querySelector('.load-more');
 form.addEventListener('submit', function (e) {
   e.preventDefault();
 
+  // Get Array data
   getImage().then(response => {
     const data = response.data.hits;
     console.log(data);
